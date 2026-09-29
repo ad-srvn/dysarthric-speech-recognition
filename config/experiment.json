@@ -1,0 +1,28 @@
+{
+  "dataset_root": "data",
+  "experiment_type": "speaker-dependent",
+  "severity_filter": "mild",
+  "severity_speakers": {
+    "mild": ["F04", "M03"],
+    "medium": ["F03", "M05"],
+    "severe": ["F01", "M01", "M02", "M04"]
+  },
+  "vocabulary_size": 20,
+  "minimum_word_examples": 6,
+  "minimum_examples_per_speaker_word": 3,
+  "minimum_audio_seconds": 0.25,
+  "maximum_audio_seconds": 15.0,
+  "train_ratio": 0.60,
+  "validation_ratio": 0.20,
+  "test_ratio": 0.20,
+  "held_out_speaker_fraction": 0.25,
+  "held_out_speakers": [],
+  "random_seed": 1337,
+  "num_hmm_states": 7,
+  "num_emitting_states": 5,
+  "feature_dimension": 39,
+  "target_mixtures": 8,
+  "baum_welch_iterations": 10,
+  "mixture_training_iterations": 5,
+  "preferred_microphones": ["headmic", "headmounted", "arraymic", "array"]
+}

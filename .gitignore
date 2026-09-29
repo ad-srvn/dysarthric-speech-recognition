@@ -1,0 +1,61 @@
+# Operating systems and editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.coverage
+htmlcov/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Local settings and secrets
+.env
+.env.*
+!.env.example
+
+# Licensed third-party software
+tools/htk/src/
+tools/htk/bin/
+
+# Licensed TORGO corpus
+data/*
+!data/.gitkeep
+!data/README.md
+
+# Generated features, models, results, and intermediate files
+features/mfc/train/*
+!features/mfc/train/.gitkeep
+features/mfc/validation/*
+!features/mfc/validation/.gitkeep
+features/mfc/test/*
+!features/mfc/test/.gitkeep
+models/*
+!models/.gitkeep
+results/*
+!results/logs/
+results/logs/*
+!results/logs/.gitkeep
+!results/repeated_experiment_matrix/
+results/repeated_experiment_matrix/*
+!results/repeated_experiment_matrix/README.md
+!results/repeated_experiment_matrix/aggregate.csv
+!results/repeated_experiment_matrix/all_runs.csv
+!results/repeated_experiment_matrix/plots/
+results/repeated_experiment_matrix/plots/*
+!results/repeated_experiment_matrix/plots/*.png
+metadata/*.csv
+metadata/vocabulary.txt
+lists/*.scp
+lists/words.list
+labels/*.mlf
+dictionary/dict
+grammar/grammar
+grammar/wdnet

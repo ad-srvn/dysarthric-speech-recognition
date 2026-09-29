@@ -1,0 +1,27 @@
+{
+  "severities": ["mild", "medium", "severe", "all"],
+  "available_groups": ["mild", "medium", "severe", "all", "control", "combined"],
+  "models": {
+    "small": {
+      "num_hmm_states": 5,
+      "num_emitting_states": 3,
+      "target_mixtures": 3,
+      "baum_welch_iterations": 8,
+      "mixture_training_iterations": 4
+    },
+    "medium": {
+      "num_hmm_states": 7,
+      "num_emitting_states": 5,
+      "target_mixtures": 5,
+      "baum_welch_iterations": 8,
+      "mixture_training_iterations": 4
+    },
+    "large": {
+      "num_hmm_states": 9,
+      "num_emitting_states": 7,
+      "target_mixtures": 8,
+      "baum_welch_iterations": 8,
+      "mixture_training_iterations": 4
+    }
+  }
+}
