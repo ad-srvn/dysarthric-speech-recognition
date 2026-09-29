@@ -232,9 +232,3 @@ results/       generated metrics, logs, models, and plots
 ```
 
 The recognizer is designed for a restricted isolated-word vocabulary. Its scores should not be interpreted as general speech-recognition performance or speaker-independent generalization.
-
-## Licensing
-
-TORGO and HTK are not included and remain subject to their respective terms.
-No license has been assigned to this repository's original source code; add a
-project license before inviting reuse or contributions.
